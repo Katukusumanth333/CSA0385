@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    int arr[]={2,4,5,8,1};
+    int n=5;
+    int index=2;
+    int new=7;
+    if(index>=0 && index<n)
+    { 
+        arr[index]=new;
+    }
+      printf("after updation:");
+    for(int i=0;i<n;i++)
+        {
+         printf("%d ",arr[i]);   
+        }
+    return 0;
+}
